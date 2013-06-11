@@ -1,1 +1,8 @@
-A boardgame with two types of pieces
+Pong for 0-4 players.
+Opens a square window, with four paddles(one on each side).
+The paddles are controlled by up-to four potentiometers or other analog sensor plugged into an Arduino.
+Every time the ball is hit, it's speed increases.
+Every time the ball is missed it explodes, and the responsible paddle changes color.
+At a certain point, the paddle will turn from red to gray,
+ which means that that player is out and is now being controlled autonimously.
+If there are less than four players, the other paddles will be gray(autonimous) from the start.
